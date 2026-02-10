@@ -15,5 +15,6 @@ class my_numbers:
         eight=8
         nine =9
 
-print(my_numbers.zero)
+# print(my_numbers.zero)
+
 
