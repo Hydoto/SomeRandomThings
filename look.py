@@ -12,7 +12,8 @@ class my_numbers:
         five= 5
         six = 6
         seven=7
-        Eight=8
-        Nine =9
+        eight=8
+        nine =9
 
 print(my_numbers.zero)
+
