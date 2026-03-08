@@ -1,8 +1,11 @@
 
-from base64 import b32encode
+from base64 import b64encode
 
+
+# stream: www.twitch.tv/meisaka
 # chat command
-# !dec b32: 
+# !dec b64: 
+
 
 
 #lm = "Thems the facts"
@@ -11,5 +14,5 @@ m = lm.__hash__()
 
 # print(m)
 
-p = b32encode(lm.encode())
-print("!dec b32:"+str(p).replace("b","").replace("'",""))
+p = b64encode(lm.encode())
+print("!dec b64:"+str(p).replace("b","").replace("'",""))
